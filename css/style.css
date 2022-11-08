@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root{
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    margin:50px 100px; 
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+header p{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+nav ul{ 
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color: var(--Dark-grayish-blue);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+
+main{
+    margin:0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+picture .web-img{
+    width: 100%;
+}
+
+main .web-description{
+    margin-top: 25px;
+    display: flex;
+}
+
+main .web-description h1{
+    width: 100%;
+    font-size: 70px;
+}
+
+main .web-description p {
+    color: var(--Dark-grayish-blue);
+    width: 70%;
+    font-size: 20px;
+}
+
+main .web-description div{
+    padding: 0;
+    margin: 0;
+}
+
+main .web-description button{
+    margin-top: 80px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: var(--Off-white);
+    background-color: var(--Soft-red);
+    transition: .4s;
+}
+
+main .web-description button:hover{
+    transition: .4s;
+    cursor: pointer;
+    background-color: var(--Very-dark-blue);
+}
+
+.other-news{
+    margin-top: 30px;
+    display: flex;
+}
